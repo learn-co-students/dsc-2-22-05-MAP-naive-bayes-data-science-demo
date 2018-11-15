@@ -90,12 +90,12 @@ To demonstrate the concept of Naive Bayes Classification, consider the example d
 Since there are twice as many GREEN objects as RED, it would seem that a new case (which hasn't been observed yet) is twice as likely to have membership GREEN rather than RED and this would be the basis of our prior probability. Prior probabilities are based on previous experience. SO we can write:
 
 #### Prior Probability of Green = Total Green Objects / Total Objects
-#### Prior Probability of Green = Total Red Objects / Total Objects
+#### Prior Probability of Red = Total Red Objects / Total Objects
 
 There is a total of 60 objects, 40 of which are GREEN and 20 RED, our prior probabilities for class membership are:
 
 #### Prior Probability of Green = 2/3
-#### Prior Probability of Green = 1/3
+#### Prior Probability of Red = 1/3
 
 ### Posterior Probability of Unseen Data
 Having formulated our prior probability, we are now ready to classify a new object (WHITE circle) i.e. calculate the posterior probability of new object, based on its position on the 2-D plane.  
